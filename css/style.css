@@ -269,7 +269,7 @@ button:hover {
 
 
   .container {
-    width: 55%;
+    width: 65%;
     height: 80%;
     margin: 2rem auto; 
   }
@@ -425,7 +425,7 @@ button:hover {
 }*/
 
 .form-contact {
-        width: 70%;
+        width: 80%;
         height: 80%;
         display: flex;
         align-items: center;
@@ -454,9 +454,11 @@ label {
 }
 
 ::placeholder {
-    text-align: center;
+    padding: 3%;
     color: black;
+    opacity: 0.7;
     font-family: "oswald";
+    text-transform: uppercase;
 }
  textarea {
      width: 50%;
@@ -497,4 +499,18 @@ form {
         justify-content: center;
         padding: 0 25%;
     }
+
+    .form-contact {
+        width: 85%;
+        height: 80%;
+    }
+    
+    .form-contact input {
+        width: 90%;
+    }
+    
+    textarea {
+        width: 90%;
+    }
 }
+
