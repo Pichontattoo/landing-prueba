@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 ::-webkit-scrollbar {
     display: none;
 }
@@ -24,8 +23,10 @@ body {
     align-items: center;
     border-radius: 3rem;
 }
-.error {
-   border: 3px solid red;
+.register {
+   color: antiquewhite;
+   font-size: 2rem;
+   text-align: center;
 }
 form {
     width: 22rem;  /*12rem movil size*/
