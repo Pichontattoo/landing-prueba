@@ -9,7 +9,7 @@
     <title>Pichon Tattoo</title>
 </head>
 
-<body>
+<body>     
     <nav class="navbar">
         <div class="logo">
             <span>Pichon tattoo</span>
@@ -19,10 +19,12 @@
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#gallery">Galeria</a></li>
                 <li><a href="#contact">Contacto</a></li>
-                <li><a href="">Como llegar</a></li>
+                <li><a href="#mapa">Como llegar</a></li>
+                <li><a href="./Login.html">Login</a></li>
             </ul>
         </div>
     </nav>
+    </div>
 
     <div class="portada">
         <div class="title">
@@ -52,7 +54,7 @@
         <div class="container">
             <div id="gallery" class="gallery">
                 <figure class="gallery__item gallery__item--1">
-                    <img src="./images/8A.jpg" class="gallery__img" alt="Image 1">
+                    <a href="../images/8A.jpg" target="_blank"><img src="./images/8A.jpg" class="gallery__img" alt="Image 1"></a><!--Acomodar link a pestaña flotante de imagen-->
                 </figure>
                 <figure class="gallery__item gallery__item--2">
                     <img src="./images/2A.jpg" class="gallery__img" alt="Image 2">
@@ -81,8 +83,8 @@
             <h2 class="contact-title">Contacto</h2>
         </div>-->
         <div class="form-contact">
-            <form action="">
-                <<label for="nombre">Nombre</label>
+            <form>
+                <label for="nombre">Nombre</label>
                 <input type="text" id="nombre" placeholder="Nombre">
                 <label for="Email">Email</label>
                 <input type="text" id="Email" placeholder="Email">
@@ -93,8 +95,20 @@
         </div>
 
     </div>
+    <div  class="mapa">
+        <h2 id="mapa" class="title-map">COMO LLEGAR</h2>
+        <div class="adress">
+        <p class="dire">San Luis 327, - Vedia - Buenos Aires</p>
+        <div class="googleMaps">
+            <iframe class="mapas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d822.0526996359754!2d-61.55023157903999!3d-34.497539779194845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95c777af8132dc7b%3A0xac1fc1e6412267ad!2zMzTCsDI5JzUzLjYiUyA2McKwMzInNTYuMCJX!5e0!3m2!1sen!2sar!4v1647578567106!5m2!1sen!2sar"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
 
+    </div>
 
+<footer class="footer">
+    <h2 class="foot">2022 © Bernabe Suarez </h2>
+</footer>
 </body>
 
 </html>

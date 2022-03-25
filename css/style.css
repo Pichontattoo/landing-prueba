@@ -46,6 +46,7 @@ red-salsa: rgba(238, 72, 72, 1);*/
     align-items: center;
     background-color: rgba(140, 54, 57, 1);
     opacity: 0.9;
+    
 }
 
 .navbar .logo {
@@ -191,6 +192,7 @@ button:hover {
     border: 1px solid #fafafa;
     cursor: pointer;
 }
+
 
 .call a:hover {
     background-color: rgb(165, 42,42);
@@ -425,7 +427,7 @@ button:hover {
 }*/
 
 .form-contact {
-        width: 80%;
+        width: 60%;
         height: 80%;
         display: flex;
         align-items: center;
@@ -479,7 +481,100 @@ form {
     flex-wrap: wrap;
 }
 
-@media (max-width: 650px) {
+.mapa {
+    width: 100%;
+      height: 100%;
+      padding: 15%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      background-image: url("../images/rendered2.jpg");
+      background-size: cover;
+}
+
+.title-map {
+    color: #fafafa;
+    font-family: "oswald";
+    font-size: 2rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 10%;
+}
+.adress {
+    height: 20rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(250, 250, 250, 0.3);
+    border-radius: 3rem;
+    box-shadow: 0px 5px 5px 2px rgba(2, 2, 2, 0.5) ;
+}
+
+.dire {
+    color: #0e0e0e;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    
+}
+
+.googleMaps {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mapas {
+    height: 80%;
+    border-radius: 3rem;
+    box-shadow: 0px 5px 5px 2px rgba(2, 2, 2, 0.5) ;
+
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: #1d242b;
+}
+.foot {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2%;
+    color: #fafafa;
+    font-family: var(--font-family);
+    font-weight: 200;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+@media (max-width: 600px) 
+    
+{
+    video {
+        visibility: hidden;
+    }
+    .portada {
+        background-image: url(../images/Maquina-background-small.jpg);
+        background-size: cover;
+        filter: sepia(45%);
+    }
+
+
+    .call {
+        width: 10em;
+        height: 2em;
+
+    }
+    .call a {
+        font-size: 0.9em;
+    }
+
     .title h1 {
         font-size: 4rem;
     }
@@ -495,6 +590,7 @@ form {
     }
 
     .menu ul {
+        visibility: hidden;
         display: block;
         justify-content: center;
         padding: 0 25%;
@@ -512,5 +608,28 @@ form {
     textarea {
         width: 90%;
     }
+
+    .adress {
+        display: block;
+        justify-content: center;
+       background: none;
+       box-shadow: none;
+       
+    }
+    .adress p {
+        color: #fafafa;
+    }
+    .dire {
+        display: block;
+        /*visibility: hidden;*/
+    }
+    .googleMaps {
+        width: 100%;
+        height: 100%;
+        border-radius: 3rem;
+    }
+.mapas {
+    height: 50%;
+}
 }
 
