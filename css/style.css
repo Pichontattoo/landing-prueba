@@ -535,20 +535,32 @@ form {
 
 .footer {
     width: 100%;
-    height: 100px;
+    height: 80px;
     display: flex;
     background-color: #1d242b;
 }
 .foot {
-    width: 100%;
+    width: 50%;
     align-items: center;
     justify-content: center;
     padding-top: 2%;
     color: #fafafa;
     font-family: var(--font-family);
     font-weight: 200;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: center;
+}
+.footer p {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    color: #fafafa;
+}
+.footer p a img{
+    filter: invert(100%);
 }
 
 @media (max-width: 600px) 
@@ -583,10 +595,12 @@ form {
     .text-inicio {
         visibility: hidden;
     }
+    .navbar {
+       height: 50px;
+    }
     .navbar span {
         visibility: hidden;
     }
-
     .menu ul {
         visibility: hidden;
         display: block;
@@ -628,6 +642,18 @@ form {
     }
 .mapas {
     height: 50%;
+}
+
+.foot {
+    width: 100%;
+    display: block;
+    align-items: center;
+}
+
+
+
+.footer p {
+    display: none;
 }
 }
 
