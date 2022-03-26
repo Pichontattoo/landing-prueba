@@ -205,7 +205,8 @@ button:hover {
     /*margin-top: 3%;*/
     text-align: center;
     color: #fafafa;
-    font-family: "oswald";
+    font-family: var(--font-family);
+    font-weight: 200;
     font-size: 1.5rem;
 }
 
@@ -587,15 +588,21 @@ form {
 
     .title h1 {
         font-size: 4rem;
+        text-shadow: 6px 2px 4px rgb(17, 17, 17);
     }
     .title h2 {
         font-size: 1rem;
+        text-shadow: 6px 2px 4px rgb(17, 17, 17);
     }
 
-    .text-inicio {
-        visibility: hidden;
+    .text-inicio p {
+        font-family: var(--font-family);
+        font-weight: 200;
+        font-size: 1rem ;
+        text-shadow: 6px 2px 4px rgb(17, 17, 17);
     }
     .navbar {
+        display: none;
        height: 50px;
     }
     .navbar span {
