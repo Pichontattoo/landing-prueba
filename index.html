@@ -9,7 +9,20 @@
     <title>Pichon Tattoo</title>
 </head>
 
-<body>     
+<body>   
+    <div class="resp-menu">
+        <div id="toggleIcon" onclick="menuToggle()">
+        </div>
+        <div id="menu-overlay">
+            <ul>
+                <li><a onclick="reset()" href="#inicio">Inicio</a></li>
+                <li><a onclick="reset()" href="#gallery">Galeria</a></li>
+                <li><a onclick="reset()" href="#contact">Contacto</a></li>
+                <li><a onclick="reset()" href="#mapa">Como llegar</a></li>
+                <li><a onclick="reset()" href="./Login.html">Login</a></li>
+            </ul>
+        </div>
+    </div>  
     <nav class="navbar">
         <div class="logo">
             <span>Pichon tattoo</span>
@@ -112,6 +125,7 @@
     <p><a href=""> <img src="./images/icons8-pinterest-48.svg" width=30px  alt=""></a> </p>
     <!-- Editar los iconos de las redes sociales-->
 </footer>
+<script src="./main.js"></script>
 </body>
 
 </html>
