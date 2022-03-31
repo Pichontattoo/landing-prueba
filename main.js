@@ -1,3 +1,11 @@
+const preloader = document.getElementById('preloader');
+    window.addEventListener("load", () => {
+        preloader.style.display = 'none';
+    } )
+
+//-----------------------------------------------------Loader-------------------------------------------//
+
+
 function menuToggle() {
 	let nav = document.getElementById('menu-overlay');
 	nav.classList.toggle('active');
